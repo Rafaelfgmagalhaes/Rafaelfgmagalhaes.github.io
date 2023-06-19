@@ -116,7 +116,7 @@ header div nav a{
 }
 
 .conteudo .lista-info .lista li{
-    font-size: 14px;
+    font-size: 15px;
     color: var(--cor5);
     margin: 0 25px;
 }
@@ -126,10 +126,10 @@ footer{
     background-color: var(--cor2);
     color: #fff;
     text-align: center;
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 footer .limita-area{
@@ -147,7 +147,7 @@ footer .limita-area{
 }
 
 footer .limita-area h3{
-    font-size: 14px;
+    font-size: 16px;
     width: 120px;
     text-align: left;
 }
