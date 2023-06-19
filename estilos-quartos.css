@@ -147,8 +147,8 @@ footer .limita-area{
 }
 
 footer .limita-area h3{
-    font-size: 16px;
-    width: 150px;
+    font-size: 14px;
+    width: 120px;
     text-align: left;
 }
 
@@ -158,7 +158,7 @@ footer .limita-area p{
 }
 
 footer .limita-area p a{
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     text-decoration: none;
 }
