@@ -141,7 +141,7 @@ footer .limita-area{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 10px;
     border-bottom: 1px solid rgb(45, 92, 45);
 }

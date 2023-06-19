@@ -71,7 +71,7 @@ header div nav a{
     border: 1px solid #ffffff79;
     border-radius: 8px;
     width: 370px;
-    min-width: 365px;
+    min-width: 300px;
     height: 120px;
     padding: 20px;
     margin: auto;
@@ -85,11 +85,11 @@ header div nav a{
 }
 
 .banner div h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .banner div span{
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .apresentacao{
@@ -282,7 +282,7 @@ footer .limita-area{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 10px;
     border-bottom: 1px solid rgb(45, 92, 45);
 }
