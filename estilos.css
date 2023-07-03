@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+:root{
+    --cor0: rgb(45, 204, 209);
+    --cor1: #fff;
+    --cor2: rgb(95, 91, 91);
+    --cor3: green;
+    --cor4: rgba(95, 91, 91, 0.486);
+    --cor5: rgb(24, 104, 107);
+}
+
+header{
+    width: 100%;
+    background-color: var(--cor0);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    width: 110px;
+    margin-left: 15px;
+}
+
+header nav{
+    margin-right: 15px;
+}
+
+header nav a{
+    color: var(--cor1);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url('./img/recepcao.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
+}
+
+.banner .texto-banner p{
+    color: var(--cor1);
+    font-size: 38px;
+    font-weight: normal;
+    margin-left: 15px;
+}
+
+.sobre{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.sobre h2{
+    font-size: 26px;
+    color: var(--cor2);
+    padding-bottom: 20px;
+}
+
+.sobre p{
+    font-size: 16px;
+    color: var(--cor2);
+    padding-bottom: 12px;
+}
+
+.sobre .servicos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.sobre .servicos .lista-servicos h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--cor2);
+    padding-bottom: 15px;
+}
+
+.sobre .servicos .lista-servicos ul li{
+    text-align: left;
+    font-size: 14px;
+    color: var(--cor2);
+    margin-left: 35px;
+}
+
+.especialidades{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.especialidades .titulo-sub{
+    width: 60%;
+    margin: auto;
+}
+
+.especialidades h3{
+    font-size: 20px;
+    color: var(--cor2);
+    padding-bottom: 15px;
+}
+
+.especialidades p{
+    font-size: 16px;
+    color: var(--cor2);
+    padding-bottom: 30px;
+}
+
+.especialidades a{
+    font-size: 16px;
+    color: var(--cor1);
+    background-color: var(--cor0);
+    text-decoration: none;
+    padding: 8px;
+}
+
+.especialidades a:hover{
+    text-decoration: underline;
+    padding: 12px;
+}
+
+.especialidades .area-fotos{
+    width: 90%;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.especialidades .area-fotos figure{
+    box-shadow: 1px 1px 3px 3px var(--cor4);
+    box-sizing: border-box;
+}
+
+.especialidades .area-fotos figcaption{
+    font-size: 16px;
+    color: var(--cor2);
+    padding: 8px;
+}
+
+.area-fotos img{
+    width: 250px;
+    height: 200px;
+}
+
+.contato{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.contato iframe{
+    width: 95%;
+    height: 350px;
+}
+
+.contato .meios-contato{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 12px;
+}
+
+.contato .meios-contato h3{
+    font-size: 20px;
+    color: var(--cor2);
+    padding-bottom: 20px;
+}
+
+.contato .meios-contato p{
+    font-size: 16px;
+    color: var(--cor2);
+    padding: 8px;
+}
+
+.contato .meios-contato span{
+    color: #000;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    background-color: var(--cor5);
+    text-align: center;
+}
+
+footer .rodape{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+footer .rodape img{
+    width: 110px;
+    padding-top: 5px;
+}
+
+footer .rodape p{
+    font-size: 16px;
+    color: var(--cor1);
+    padding: 8px;
+}
+
+@media (min-width: 720px) and (max-width: 953px) {
+    .sobre .servicos{
+        flex-wrap: nowrap;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 719px){
+    .banner{
+        height: 300px;
+    }
+    
+    .banner .texto-banner p{
+        font-size: 24px;
+    }
+    
+    .sobre .servicos .img-med img{
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+    header{
+        height: 75px;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        gap: 1px;
+        position: relative;
+    }
+
+    header .logo{
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 5px;
+    }
+    
+    header .logo img{
+        width: 70px;
+        align-items: center;
+    }
+
+    header nav{
+        width: 70%;
+        text-align: center;
+        position: absolute;
+        top: 45px;
+        border-top: 1px solid var(--cor5);
+    }
+
+    header nav a{
+        color: var(--cor1);
+        text-decoration: none;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    header nav a:hover{
+        text-decoration: underline;
+        font-size: 14px;
+    }
+    
+    .banner{
+        height: 200px;
+    }
+
+    .banner .texto-banner p{
+        font-size: 18px;
+    }
+
+    .sobre .servicos .img-med img{
+        display: none;
+    }
+
+    .sobre h2{
+        font-size: 18px;
+    }
+
+    .sobre p{
+        font-size: 12px;
+    }
+
+    .sobre .servicos .lista-servicos h3{
+        font-size: 14px;
+    }
+
+    .sobre .servicos .lista-servicos ul li{
+        font-size: 12px;
+    }
+
+    .especialidades h3{
+        font-size: 16px;
+    }
+
+    .especialidades p{
+        font-size: 12px;
+    }
+
+    .especialidades a{
+        font-size: 12px;
+    }
+
+    .contato .meios-contato h3{
+        font-size: 16px;
+    }
+
+    .contato .meios-contato p{
+        font-size: 12px;
+    }
+
+    .contato iframe{
+        width: 300px;
+        height: 200px;
+    }
+
+    footer .rodape p{
+        font-size: 12px;
+    }
+}
+
