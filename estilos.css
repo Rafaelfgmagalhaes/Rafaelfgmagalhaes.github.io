@@ -235,6 +235,13 @@ footer .rodape p{
     padding: 8px;
 }
 
+@media (min-width: 1366px) {
+    .banner{
+        height: 600px;
+    }
+}
+
+
 @media (min-width: 720px) and (max-width: 953px) {
     .sobre .servicos{
         flex-wrap: nowrap;
