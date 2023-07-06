@@ -66,6 +66,7 @@ header .logo img{
 
 .banner .formulario .titulo-form img{
     width: 18px;
+    transform: rotate(-45deg);
 }
 
 .banner .formulario .titulo-form span{
@@ -82,11 +83,13 @@ header .logo img{
 .banner .formulario .corpo-form input{
     padding: 8px;
     border-radius: 8px;
+    border: 1px solid black;
 }
 
 .banner .formulario .corpo-form select{
     padding: 8px;
     border-radius: 8px;
+    border: 1px solid black;
 }
 
 .banner .formulario .corpo-form h2{
