@@ -1,0 +1,390 @@
+@media (min-width: 769px) and (max-width: 1024px){
+    header .logo{
+        width: 692px;
+        font-size: 24px;
+    }
+
+    header .logo img{
+        width: 28px;
+    }
+
+    .banner{
+        height: 800px;
+    }
+
+    .banner .formulario{
+        width: 692px;
+    }
+
+    .banner .formulario .titulo-form{
+        padding: 10px;
+    }
+
+    .banner .formulario .corpo-form .quarto{
+        width: 90%;
+    }
+
+    .banner .formulario .corpo-form .preferencias{
+        width: 90%;
+    }
+
+    .banner .formulario .corpo-form .preferencias .opcoes{
+        gap: 15px;
+    }
+
+    .banner .formulario button{
+        width: 35%;
+        margin: auto;
+        font-size: 16px;
+    }
+
+    .conteudo-principal .limita-area{
+        width: 692px;
+    }
+
+    .conteudo-principal h3{
+        font-size: 22px;
+    }
+
+    .conteudo-principal p{
+        font-size: 18px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos{
+        flex-wrap: wrap;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .img-grande img{
+        width: 692px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .img-grande .grande{
+        width: 692px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .img-peq{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 510px;
+        width: 692px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .img-peq img{
+        width: 336px;
+        height: 254px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .fig1 .leg1{
+        width: 336px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .fig2 .leg2{
+        width: 336px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .fig3 .leg3{
+        width: 336px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .fig4 .leg4{
+        width: 336px;
+    }
+
+    .conteudo-principal .limita-area .area-cards{
+        flex-wrap: wrap;
+    }
+
+    .conteudo-principal .limita-area .area-cards .card .img-card img{
+        width: 692px;
+    }
+
+    .conteudo-principal .limita-area .area-cards .card{
+        width: 692px;
+    }
+
+    .conteudo-principal .limita-area .area-cards .card .texto-card h4{
+        font-size: 20px;
+    }
+
+    .conteudo-principal .limita-area .area-cards .card .texto-card p{
+        font-size: 18px;
+    }
+
+    footer .limita-area{
+        width: 692px;
+    }
+
+    .rodape h4{
+        font-size: 22px;
+    }
+
+    .rodape span{
+        font-size: 16px;
+    }
+
+    .rodape img{
+        width: 18px;
+    }
+}
+
+@media (min-width: 541px) and (max-width:768px){
+    header .logo{
+        width: 487px;
+        font-size: 24px;
+    }
+
+    header .logo img{
+        width: 24px;
+    }
+
+    .banner{
+        height: 800px;
+    }
+
+    .banner .formulario{
+        width: 487px;
+    }
+
+    .banner .formulario .titulo-form{
+        padding: 8px;
+    }
+
+    .banner .formulario .corpo-form .quarto{
+        width: 90%;
+    }
+
+    .banner .formulario .corpo-form .preferencias{
+        width: 90%;
+    }
+
+    .banner .formulario .corpo-form .preferencias .opcoes{
+        gap: 15px;
+    }
+
+    .banner .formulario button{
+        width: 100%;
+        margin: auto;
+        font-size: 16px;
+    }
+
+    .conteudo-principal .limita-area{
+        width: 487px;
+    }
+
+    .conteudo-principal h3{
+        font-size: 20px;
+    }
+
+    .conteudo-principal p{
+        font-size: 16px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos{
+        flex-wrap: wrap;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .img-grande img{
+        width: 487px;
+        height: 243px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .img-grande .grande{
+        width: 487px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .img-peq img{
+        width: 487px;
+        height: 243px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .fig1 .leg1{
+        width: 487px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .fig2 .leg2{
+        width: 487px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .fig3 .leg3{
+        width: 487px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .fig4 .leg4{
+        width: 487px;
+    }
+
+    .conteudo-principal .limita-area .area-cards{
+        flex-wrap: wrap;
+    }
+
+    .conteudo-principal .limita-area .area-cards .card .img-card img{
+        width: 487px;
+    }
+
+    .conteudo-principal .limita-area .area-cards .card{
+        width: 487px;
+    }
+
+    footer .limita-area{
+        width: 487px;
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 540px){
+    header .logo{
+        width: 288px;
+        font-size: 16px;
+    }
+
+    header .logo img{
+        width: 22px;
+    }
+
+    .banner{
+        height: 800px;
+    }
+
+    .banner .formulario{
+        width: 288px;
+    }
+
+    .banner .formulario .titulo-form{
+        padding: 5px;
+    }
+
+    .banner .formulario .corpo-form input{
+        padding: 3px;
+    }
+
+    .banner .formulario .corpo-form select{
+        padding: 3px;
+    }
+
+    .banner .formulario .corpo-form .ida{
+        width: 100%;
+    }
+
+    .banner .formulario .corpo-form .trajeto .partida{
+        width: 100%;
+    }
+
+    .banner .formulario .corpo-form .trajeto .chegada{
+        width: 100%;
+    }
+
+    .banner .formulario .corpo-form .volta{
+        width: 100%;
+    }
+
+    .banner .formulario .corpo-form .quarto{
+        width: 90%;
+    }
+
+    .banner .formulario .corpo-form .preferencias{
+        width: 90%;
+    }
+
+    .banner .formulario .corpo-form .preferencias .opcoes{
+        gap: 15px;
+    }
+
+    .banner .formulario button{
+        width: 90%;
+        margin: auto;
+        font-size: 16px;
+    }
+
+    .conteudo-principal .limita-area{
+        width: 288px;
+    }
+
+    .conteudo-principal h3{
+        font-size: 18px;
+    }
+
+    .conteudo-principal p{
+        font-size: 14px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos{
+        flex-wrap: wrap;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .img-grande img{
+        width: 288px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .img-grande .grande{
+        width: 288px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .img-peq img{
+        width: 288px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .fig1 .leg1{
+        width: 288px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .fig2 .leg2{
+        width: 288px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .fig3 .leg3{
+        width: 288px;
+    }
+
+    .conteudo-principal .limita-area .area-fotos .fig4 .leg4{
+        width: 288px;
+    }
+
+    .conteudo-principal .limita-area .area-cards{
+        flex-wrap: wrap;
+    }
+
+    .conteudo-principal .limita-area .area-cards .card .img-card img{
+        width: 288px;
+    }
+
+    .conteudo-principal .limita-area .area-cards .card{
+        width: 288px;
+    }
+
+    .conteudo-principal .limita-area .area-cards .card .texto-card h4{
+        font-size: 16px;
+    }
+
+    .conteudo-principal .limita-area .area-cards .card .texto-card p{
+        font-size: 14px;
+    }
+
+    footer .limita-area{
+        width: 288px;
+    }
+
+    .rodape{
+        justify-content: left;
+    }
+
+    .rodape h4{
+        font-size: 14px;
+        padding-bottom: 8px;
+    }
+
+    .rodape span{
+        font-size: 10px;
+    }
+
+    .rodape img{
+        width: 12px;
+    }
+
+    .rodape .meios-contato{
+        padding-bottom: 15px;
+    }
+
+}
